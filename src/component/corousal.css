@@ -1,0 +1,27 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0s linear; 
+    will-change: transform;
+  }
+  
+  .service-pages {
+    display: flex;
+  }
+  
+  .service-section {
+    flex: 0 0 300px; 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .service-section img {
+    width: 100%;
+    height: auto;
+  }
+  

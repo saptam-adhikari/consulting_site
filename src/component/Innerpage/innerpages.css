@@ -1,0 +1,404 @@
+.innerpage-secction{
+    width: 100%;
+    height: 435px;
+    padding: 60px 0px 19px;
+    background-color:#ede8e4;
+    margin-top: 100px;
+}
+.innerpage-info h3{
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-fill-color: #191818;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.innerpage-info h1{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #191818;
+    font-family: "gt walsheim pro", sans-serif;
+}
+.innerpage-info p{
+    padding-left: 70px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #191818;
+    font-family: "public sans", sans-serif;
+}
+.features-checklist{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.features-checklist h3{
+    font-size: 2rem;
+    color: #1a1919;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.service-pages{
+    padding-top: 80px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+.service-section{
+    border: 1px solid black ;
+    transition: transform 0.3s ease;
+}
+.service-section img{
+    align-items: center;
+    justify-content: center;
+}
+.service-section p{
+    font-size: 2rem;
+    color: #1a1919;
+    font-weight: 400;
+    text-align: center;
+}
+
+.build-visual{
+    padding-top: 100px;
+    display: flex;
+}
+
+.visual-info{
+    padding-left: 80px;
+}
+.visual-info h5{
+    padding-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-fill-color: #575252f6;
+    font-family: "public sans", sans-serif;
+}
+.visual-info h1{
+    padding-top: 10px;
+    font-size: 5rem;
+    font-weight: 550;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}
+.visual-info p{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "public sans", sans-serif;
+}
+
+.visual-info h3{
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}
+.shop-pages{
+    padding-top: 100px;
+    display: flex;
+    padding-left: 100px;
+}
+.shop-info{
+    padding-right: 80px;
+}
+.shop-info h5{
+    padding-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-fill-color: #575252f6;
+    font-family: "public sans", sans-serif;
+}
+.shop-info h1{
+    padding-top: 10px;
+    font-size: 5rem;
+    font-weight: 550;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}
+.shop-info p{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "public sans", sans-serif;
+}
+.shop-info h3{
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}
+.shop-info button{
+    height: 50px;
+    width: 155px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #191818;
+    color: azure;
+    cursor: pointer;
+}
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+  
+  .box {
+    width: 45%;
+    background-image: url("https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/05/ab3.webp") ;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .box-image {
+    width: 87%;
+    height: 420px;
+    margin-bottom: 35px;
+    margin-left: 52px;
+   
+  }
+  
+  .box-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .box-content h3 {
+    font-size: 1.9em;
+    color: white;
+   
+  }
+  
+  .box-content p {
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .superlook-section{
+    margin-top: 150px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .section-content{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    height: 580px;
+    width: 550px;
+    background-color: #dadad9;
+  }
+  .section-content h1{
+    padding-top: 90px;
+    font-size: 5rem;
+    font-weight: 550;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}
+.section-content p{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "public sans", sans-serif;
+}
+.section-content h3{
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}
+
+.blog-content {
+    padding-top: 150px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #f9f9f9;
+  }
+  
+  .blog-features {
+    max-width: 50%;
+    z-index: 2;
+  }
+  
+  .blog-features h5 {
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-fill-color: #575252f6;
+    font-family: "public sans", sans-serif;
+  }
+  
+  .blog-features h1 {
+    padding-top: 10px;
+    font-size: 5rem;
+    font-weight: 545;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+  }
+  
+  .blog-features p {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #6e6b6bf6;
+    font-family: "public sans", sans-serif;
+  }
+  
+  .blog-image img {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    width: 30%;
+  }
+  
+  .blog-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .blog-options div {
+    text-align: center;
+    margin: 0 15px;
+  }
+  
+  .blog-options img {
+    width: 76px;
+    height: 74px;
+    backdrop-filter: blur(10px);
+    background-color: #121C27;
+    padding: 25px 21px;
+    margin-top: 110px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .blog-options h5 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #1a1a1a;
+  }
+  .plugins{
+    margin-top: 120px;
+    height: 780px;
+    border: 1px solid black;
+    display: flex;
+    background-color: #121C27;
+  }
+  .plugins-info h5{
+    padding-top: 100px;
+    padding-left: 80px;
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    font-family: "public sans", sans-serif;
+
+  }
+  .plugins-info h1{
+    padding-top: 10px;
+    padding-left: 80px;
+    font-size: 5rem;
+    font-weight: 460;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #faf5f5f6;
+    font-family: "gt walsheim pro", sans-serif;
+  }
+
+  .plugins-info p{
+    padding-top: 10px;
+    padding-left: 80px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #fffcfcf6;
+    font-family: "public sans", sans-serif;
+  }
+  .plugins-sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .plugins-sections div {
+    text-align: center;
+    margin: 0 15px;
+  }
+  
+   .plugins-sections img {
+    width: 76px;
+    height: 74px;
+    backdrop-filter: blur(10px);
+    background-color: #353e47;
+    padding: 25px 21px;
+    margin-top: 110px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .plugins-sections h5 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #fefcfc;
+  }
+  .plugin-list{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .plugin-list h5{
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #fefcfc;
+  }
+ 
