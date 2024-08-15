@@ -1,17 +1,16 @@
 import React from 'react'
 import './innerpages.css';
 import Carousel from '../Carousel.js';
+import InnerpageInfo from './InnerpageInfo.js';
+import VisualInfo from './VisualInfo.js';
+import ShopInfo from './ShopInfo.js';
 
 
 const Innerpages = () => {
   return (
-    <div>
+    <div id="innerpages">
       <div className='innerpage-secction'>
-        <div className='innerpage-info'>
-            <h3>amazing inner pages</h3>
-            <h1>Inner Pages Exactly For Your Purposes</h1>
-            <p>You can easily create your own complete website. The inner pages have been optimally designed and <br/> arranged so that you can quickly and easily adjust your website to your needs.</p>
-        </div>
+        <InnerpageInfo/>
         <div className='features-checklist'>
             <h3>✔  Edit Anything Visually</h3>
             <h3>✔ Design Elements Suitable for a Consulting Firm</h3>
@@ -24,28 +23,12 @@ const Innerpages = () => {
       <div>
         <div className='build-visual'>
           <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld15.webp'/>
-          <div className='visual-info'>
-            <h5>Build Visually</h5>
-            <h1>Elementor Page Builder <br/> +100 Elements & Blocks.</h1>
-            <p>We used #1 free WordPress website builder(Drag & Drop) – Elementor as page builder. <br/> This page builder is Simple. Powerful. Flexible. Experience the power of 100% visual <br/>design and build websites that load faster, and speed up the process of building them.</p>
-            <h3>✔ Drag and Drop Editor</h3>
-            <h3>✔ No Coding Required</h3>
-            <h3>✔ Header & Footer Builder</h3>
-            <h3>✔ Widgets for Every Purpose</h3>
-          </div>
+          <VisualInfo/>
         </div>
       </div>
       <div>
         <div className='shop-pages'>
-        <div className='shop-info'>
-            <h5>WooCommerce Ready</h5>
-            <h1>Start your Shop today!</h1>
-            <p>WooCommerce – the most customizable eCommerce platform for building your online business. We used this plugin for ecommerce and included demo. After installing demo data you will get demo shop there.</p>
-            <h3>✔ Create your own Online Store on your Business Consulting site</h3>
-            <h3>✔ Set Prices for each Add-On</h3>
-            <h3>✔ Stable & Secure Payments by WooCommerce</h3>
-            <button>Explore Shop Page</button>
-          </div>
+          <ShopInfo/>
           <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld20.webp'/>
         </div>
       </div>
@@ -100,6 +83,7 @@ const Innerpages = () => {
           <img src="https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld28.webp" alt="Newspaper" />
         </div>
       </div>
+      
 
       <div className="blog-options">
         <div>

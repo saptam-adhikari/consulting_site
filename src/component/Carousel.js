@@ -11,7 +11,7 @@ const Carousel = () => {
     const interval = setInterval(() => {
       setScrollPosition((prevPosition) => {
         const newPosition = prevPosition - scrollSpeed;
-        const maxScrollPosition = -(cardWidth * 4); 
+        const maxScrollPosition = -(cardWidth * 1); 
         return newPosition <= maxScrollPosition ? 0 : newPosition;
       });
     }, 16);

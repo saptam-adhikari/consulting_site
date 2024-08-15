@@ -2,6 +2,7 @@ import React from 'react'
 import './Features.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeadset, faSyncAlt, faGlobe, faPalette, faSlidersH, faSearch, faTextHeight, faRocket } from "@fortawesome/free-solid-svg-icons";
+import FeaturesPage from './FeaturesPage';
 
 const features = [
     { title: "Friendly Support", description: "Our aim is the satisfaction of customers. If you have any questions, or need help with Herrington, just contact us and our support.", icon: faHeadset },
@@ -17,15 +18,8 @@ const features = [
 
 const Features = () => {
   return (
-    <div>
-      <div className='featurs-page'>
-      <div className='features-info'>
-          <h5>Level-up Your Website</h5>
-          <h1>Top-Notch Features Included</h1>
-          <h3> Functionality and Opportunities Brought by This Theme Make Your Website Building Process Fun and Simple.</h3>
-        </div>
-        <hr/>
-      </div>
+    <div id="features">
+      <FeaturesPage/>
       <div className="features-grid">
       {features.map((feature, index) => (
         <div key={index} className="feature-item">

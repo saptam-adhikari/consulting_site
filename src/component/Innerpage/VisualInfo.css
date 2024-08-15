@@ -1,0 +1,52 @@
+.visual-info {
+    padding-left: 80px;
+}
+
+.visual-info h5 {
+    padding-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    -webkit-text-fill-color: #575252f6;
+    font-family: "public sans", sans-serif;
+}
+
+.visual-info h1 {
+    padding-top: 10px;
+    font-size: 5rem;
+    font-weight: 550;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+    display: inline-block; 
+    white-space: pre-wrap; 
+}
+
+.animated-letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.fadeIn {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.visual-info p {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "public sans", sans-serif;
+}
+
+.visual-info h3 {
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    -webkit-text-fill-color: #141313f6;
+    font-family: "gt walsheim pro", sans-serif;
+}

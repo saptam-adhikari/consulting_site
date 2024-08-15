@@ -1,5 +1,6 @@
 import React from 'react'
 import './programs.css'
+import TemplatesHead from './TemplateHead';
 
 const Programs = () => {
   return (
@@ -76,16 +77,9 @@ const Programs = () => {
 
       </div>
 
-      <div className='templates'>
-        <div className='templates-head'>
-          <h5>Ready-Made Templates</h5>
-          <h1>Beautiful Designs, Endless Possibilities</h1>
-          <h3>
-            Beautiful, hand-crafted designs to get you started. Install any demo or template with a single click. Mix and match anything.
-          </h3>
-        </div>
-        <hr/>
-
+      <div id='demos'>
+         <TemplatesHead/>
+         <hr/>
         <div className='features'>
           <h3>One Click Installation</h3>
           <h3>No Coding Required</h3>

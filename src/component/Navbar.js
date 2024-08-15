@@ -33,9 +33,9 @@ const Navbar = () => {
 
                 <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                     <ul>
-                        <li><a href='#'>Demos.</a></li>
-                        <li><a href='#'>Innerpages.</a></li>
-                        <li><a href='#'>Features.</a></li>
+                        <li><a href='#demos'>Demos.</a></li>
+                        <li><a href='#innerpages'>Innerpages.</a></li>
+                        <li><a href='#features'>Features.</a></li>
                         <li><a href='#'>FAQs.</a></li>
                         <li><a href='#'>Support.</a></li>
                         <li><a href='#'>Documentation.</a></li>
