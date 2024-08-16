@@ -65,12 +65,12 @@ p{
 }
 .services{
     display:flex;
-    padding-top: 80px;
+    padding-top: 50px;
     justify-content: space-around;
     line-height: 20px;   
 }
 .services h3{
-    padding: 30px;
+    padding: 10px;
     font-size: 2rem;
     font-weight: bold;
     text-transform: none;
@@ -78,9 +78,9 @@ p{
     /* text-align: center; */
 }
 .services h5{
-    font-size: 12px;
+    font-size: 1.3rem;
     text-transform: none;
-    -webkit-text-fill-color: #ffff;
+    -webkit-text-fill-color: #9a9595;
     /* width: 50%; */
     text-align: center;
 }

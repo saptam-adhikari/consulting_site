@@ -24,9 +24,7 @@ const Features = () => {
       {features.map((feature, index) => (
         <div key={index} className="feature-item">
           <FontAwesomeIcon icon={feature.icon} size="2x" />
-          <br/>
           <hr/>
-          <br/>
           <h3>{feature.title}</h3>
           <p>{feature.description}</p>
         </div>

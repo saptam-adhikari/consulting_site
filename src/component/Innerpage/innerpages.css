@@ -44,11 +44,44 @@
 .build-visual{
     padding-top: 100px;
     display: flex;
+    
 }
 .shop-pages{
     padding-top: 100px;
     display: flex;
     padding-left: 100px;
+
+}
+.ele-img1{
+  height: 340px;
+  width: 140px;
+  margin-top: -20px;
+  margin-right: 220px;
+}
+.ele-img3{
+  height: 340px;
+  width: 140px;
+  margin-top: 120px;
+}
+.ele-img2{
+  width: 400px;
+  height: 400px;
+  margin-left: -250px;
+
+}
+
+.shop-img1{
+  /* position: absolute; */
+  width: 400px;
+  height: 400px;
+
+}
+.shop-img2{
+  /* position: absolute; */
+  margin-top: -250px;
+  margin-left: -100px;
+  width: 400px;
+  height: 400px;
 }
 .box-container {
     display: flex;
@@ -59,6 +92,7 @@
   }
   
   .box {
+    margin-top: 130px;
     width: 45%;
     background-image: url("https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/05/ab3.webp") ;
     border-radius: 15px;
@@ -70,7 +104,10 @@
     width: 87%;
     height: 420px;
     margin-bottom: 35px;
+    margin-top: -100px;
     margin-left: 52px;
+    position:relative;
+
    
   }
   
@@ -267,7 +304,7 @@
     backdrop-filter: blur(10px);
     background-color: #353e47;
     padding: 25px 21px;
-    margin-top: 110px;
+    margin-top: 40px;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
@@ -282,8 +319,8 @@
   }
   .plugin-list{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+   
   }
   .plugin-list h5{
     padding-top: 10px;

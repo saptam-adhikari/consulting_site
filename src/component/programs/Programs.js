@@ -35,8 +35,6 @@ const Programs = () => {
                 <div className='services'>
                     <div className='sevice-content'>
                         <div className='service-image'> <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld3.webp'/></div>
-                        <br/>
-                        <br/>
                         <hr/>
                         <h3>Fresh & Clean Design</h3>
                         <h5>The theme has been optimized to give your visitors a clear, glorious experience in terms of UX/UI.</h5>
@@ -44,8 +42,6 @@ const Programs = () => {
                     </div>
                     <div className='sevice-content'>
                         <div className='service-image' > <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld4.webp'/></div>
-                        <br/>
-                        <br/>
                         <hr/>
                         <h3>Lifetime Free Updates</h3>
                         <h5>When you purchase the theme, you will receive free lifetime updates of the theme forever after.</h5>
@@ -53,9 +49,7 @@ const Programs = () => {
                     </div>
                     <div className='sevice-content'>
                        
-                        <div  className='service-image'> <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld5.webp'/></div>
-                        <br/>
-                        <br/>
+                        <div className='service-image'> <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld5.webp'/></div>
                         <hr/>
                         <h3>Free Plugin</h3>
                         <h5>All the plugins included in your theme are free and you can enjoy all their features. It’s awesome!</h5>
@@ -64,8 +58,6 @@ const Programs = () => {
                     <div className='sevice-content'>
                         
                         <div  className='service-image'><img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld6.webp'/></div>
-                        <br/>
-                        <br/>
                         <hr/>
                         <h3>Multilingual Support</h3>
                         <h5>The translation is ready, so you just need to add the translation file. very easy to switch languages.</h5>

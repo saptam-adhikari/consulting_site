@@ -29,7 +29,11 @@ const Innerpages = () => {
       <div>
         <div className='shop-pages'>
           <ShopInfo/>
-          <img src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld20.webp'/>
+          <div>
+          <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='shop-img1' src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld21.webp'/>
+          <img data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-duration="3000" className='shop-img2' src='https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld20.webp'/>
+          </div>
+         
         </div>
       </div>
 
@@ -72,16 +76,20 @@ const Innerpages = () => {
       <div className="blog-content">
         <div className="blog-features">
           <h5>Modern & Beautiful</h5>
-          <h1>Amazing Blog Layout</h1>
+          <h1 data-aos="fade-right" data-aos-delay="400">Amazing Blog Layout</h1>
           <p>
             Give your blog a unique touch with these minimalist blog and single post layouts.
             <br />
             Feel free to launch and run your blog, make it in a very professional way.
           </p>
         </div>
-        <div className="blog-image">
-          <img src="https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld28.webp" alt="Newspaper" />
+       
+    <div  className="blog-image">
+          <img data-aos="fade-left" data-aos-delay="400" src="https://demo.bravisthemes.com/herrington/wp-content/uploads/2024/07/ld28.webp" alt="Newspaper" />
         </div>
+
+
+        
       </div>
       
 
@@ -157,11 +165,7 @@ const Innerpages = () => {
                <h5>WooCommerce</h5>
              </div>
            </div>
-           <br/>
-           <br/>
            <hr/>
-           <br/>
-           <br/>
            <div>
             <div className='plugin-list'>
               <h5> Multilingual</h5>
